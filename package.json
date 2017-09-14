@@ -1,0 +1,14 @@
+{
+  "name": "robotntr",
+  "version": "0.2.5",
+  "description": "SpadesNTR's Discord bot, which you can customise to your own volition.",
+  "main": "RobotNTR.js",
+  "scripts": {
+    "start": "node RobotNTR.js"
+  },
+  "author": "SpadesNTR",
+  "license": "Apache2",
+  "dependencies": {
+    "discord.js": "11.1.0"
+  }
+}
