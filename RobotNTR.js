@@ -114,7 +114,7 @@ client.on('message', message => {
               fields: [
                   {
                       name: "RobotNTR, v0.2.1",
-                      value: "RobotNTR is developed by SpadesNTR, who can be found at http://spadesntr.github.io/.",
+                      value: "RobotNTR is developed by SpadesNTR, who can be found at http://mavericknt.github.io/.",
                       inline: true,
                   },
                   {
