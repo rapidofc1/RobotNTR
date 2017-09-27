@@ -23,6 +23,7 @@ client.updateProfile = function() {
 		"Inserting Disk 2 of 4",
 		"Upgrading Sound Card",
 		"Connectix Virtual PC 5.2",
+		"Visual Basic 6.0",
 	];
         // Set 'Playing' text to a random choice out of the 'statusMsgs' variable...
         client.user.setPresence({game: {name: (statusMsgs[Math.floor(Math.random() * statusMsgs.length)]), type: 0 }});
@@ -114,7 +115,7 @@ client.on('message', message => {
               fields: [
                   {
                       name: "RobotNTR, v0.2.1",
-                      value: "RobotNTR is developed by SpadesNTR, who can be found at http://mavericknt.github.io/.",
+                      value: "RobotNTR is developed by SpadesNTR, who can be found at https://www.listography.com/ntr",
                       inline: true,
                   },
                   {
