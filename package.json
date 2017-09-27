@@ -7,7 +7,7 @@
     "start": "node RobotNTR.js"
   },
   "author": "SpadesNTR",
-  "license": "Apache2",
+  "license": "Apache-2.0",
   "dependencies": {
     "discord.js": "11.1.0"
   }
