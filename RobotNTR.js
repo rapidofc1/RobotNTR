@@ -1,4 +1,4 @@
-// RobotNTR, v0.2.5, "Now Playing v5".
+// RobotNTR.js, v0.2.6, "Hiatus".
 
 // Import discord.js module...
 const Discord = require('discord.js');
@@ -8,7 +8,7 @@ const client = new Discord.Client();
 // Ready the bot...
 client.on("ready", function() {
     //Let the user know the bot is open...
-	console.log("RobotNTR v0.2.5, Running on NodeJS.\nLicensed under the Apache 2.0 License.")
+	console.log("RobotNTR.js v0.2.6, Running on NodeJS.\nLicensed under the Apache 2.0 License.")
 	// Set updateProfile interval...
 	client.setInterval(client.updateProfile, (120 * 1000));
     // Do it...
@@ -114,13 +114,13 @@ client.on('message', message => {
               },
               fields: [
                   {
-                      name: "RobotNTR, v0.2.1",
-                      value: "RobotNTR is developed by SpadesNTR, who can be found at https://www.listography.com/ntr",
+                      name: "RobotNTR.js, v0.2.6",
+                      value: "RobotNTR.js is developed by SpadesNTR, who can be found at https://www.twitter.com/SpadesNTR",
                       inline: true,
                   },
                   {
                       name: "Legal",
-                      value: "RobotNTR runs on Node.JS, and uses Discord.JS to communicate with Discord. RobotNTR is licensed with the Apache 2.0 License.",
+                      value: "RobotNTR.js runs on Node.JS, and uses Discord.JS to communicate with Discord. RobotNTR.js is licensed with the Apache 2.0 License.",
                       inline: true,
                   }
               ],
@@ -168,16 +168,16 @@ client.on('message', message => {
                       value: "Displays information on the bot and its 'version'.",
                       inline: true,
                   },
-				  {
-					  name: "./chinesecowboy",
-					  value: "So offensive that Mario's stomach ulcer practically explodes and he is unable to ask Luigi to stop being so fucking racist.",
-					  inline: true,
-				  },
-				  {
-					  name: "./online, ./idle",
-					  value: "Changes the bot's status. One sets it to Online, the other to Idle.",
-					  inline: true,
-				  }
+		  {
+		      name: "./chinesecowboy",
+		      value: "So offensive that Mario's stomach ulcer practically explodes and he is unable to ask Luigi to stop being so fucking racist.",
+		      inline: true,
+		  },
+		  {
+		      name: "./online, ./idle",
+		      value: "Changes the bot's status. One sets it to Online, the other to Idle.",
+		      inline: true,
+		  }
               ],
           }
       })

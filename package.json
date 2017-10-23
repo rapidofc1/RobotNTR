@@ -1,6 +1,6 @@
 {
   "name": "robotntr",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "SpadesNTR's Discord bot, which you can customise to your own volition.",
   "main": "RobotNTR.js",
   "scripts": {
