@@ -1,4 +1,4 @@
-# RobotNTR.js
+# RobotNTR
 SpadesNTR's Discord bot, written in JavaScript, which you can customise to your own volition. For use with Heroku.
 
 # Heroku
