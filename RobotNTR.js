@@ -18,11 +18,11 @@ client.on("ready", function() {
 client.updateProfile = function() {
     //Define status messages...
 	var statusMsgs = [
-	    "Midtown Madness",
-		"Need for Speed II SE",
-		"Sid Meier's Civilisation III",
-		"Microsoft Solitaire",
-		"The Sims",
+	    "with ur mum | ./help",
+		"Minecraft | ./help",
+		"with daddy Rapid | ./help",
+		"with some toys | ./play",
+		"on a server | ./help",
 	];
         // Set 'Playing' text to a random choice out of the 'statusMsgs' variable...
         client.user.setPresence({game: {name: (statusMsgs[Math.floor(Math.random() * statusMsgs.length)]), type: 0 }});
