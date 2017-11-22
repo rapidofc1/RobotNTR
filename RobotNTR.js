@@ -21,7 +21,7 @@ client.updateProfile = function() {
 	    "with ur mum | ./help",
 		"Minecraft | ./help",
 		"with daddy Rapid | ./help",
-		"with some toys | ./play",
+		"with some toys | ./help",
 		"on a server | ./help",
 	];
         // Set 'Playing' text to a random choice out of the 'statusMsgs' variable...
