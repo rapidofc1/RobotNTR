@@ -147,7 +147,7 @@ client.on('message', message => {
           embed: {
               color: 0x008080,
               title: "Command list",
-              description: "All commands are listen here! :page_facing_up",
+              description: "All commands are listen here! :page_facing_up:",
               thumbnail: {
                   url:
                   "https://cdn.discordapp.com/attachments/382331380656242702/382652629190311937/20171121_150421.png",
@@ -155,7 +155,7 @@ client.on('message', message => {
               fields: [
                   {
                       name: "./help",
-                      value: "Display this message.",
+                      value: "Shows this frickin' message you goon.",
                       inline: true,
                   },
                   {
@@ -170,7 +170,7 @@ client.on('message', message => {
                   },
                   {
                       name: "./channelid",
-                      value: "Retrieves the identifier of the channel the command is run in. Useful for debugging...",
+                      value: "Find the identifier for the channel the command was sent in.",
                       inline: true,
                   },
                   {
@@ -184,8 +184,8 @@ client.on('message', message => {
                       inline: true,
                   },
 		  {
-		      name: "./emptyslot",
-		      value: "WIP.",
+		      name: "./drake",
+		      value: "Hotline bling!",
 		      inline: true,
 		  },
 		  {
@@ -197,12 +197,12 @@ client.on('message', message => {
           }
       })
   }
-    else if (message.content === './chinesecowboy') {
+    else if (message.content === './drake') {
       message.channel.send({
           embed: {
               color: 0x008080,
 			  image: {
-				  url: "http://i.imgur.com/uRbrpaK.jpg"
+				  url: "https://cdn.discordapp.com/attachments/382331380656242702/382550019711959040/drake.gif"
 			  }
           }
       })
