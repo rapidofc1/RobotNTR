@@ -52,7 +52,7 @@ client.on('message', message => {
               color: 0x008080,
               fields: [
                   {
-                      name: "Pong!",
+                      name: "Pong! :ping_pong:",
                       value: "Ping Time: " + new Date().getTime() - message.createdTimestamp + " ms",
                       inline: true,
                   },
@@ -66,7 +66,7 @@ client.on('message', message => {
               color: 0x008080,
               fields: [
                   {
-                      name: "Ping!",
+                      name: "Ping! :ping_pong:",
                       value: "Ping Time: " + new Date().getTime() - message.createdTimestamp + " ms",
                       inline: true,
                   },
@@ -93,25 +93,25 @@ client.on('message', message => {
 	description: "Utility to find the ID of a channel.",
 	thumbnail: {
 		url:
-          "https://cdn.discordapp.com/avatars/326720733327654913/3c6aca41df96ed0a6f84f3a7b34ea4bb.webp?size=2048",
+          "https://cdn.discordapp.com/attachments/382331380656242702/382652629190311936/20171118_170053.jpg",
         },
 	  fields: [
 	  {
-		  name: "This channel has a unique identifier of...",
+		  name: "This channels sorta cool ID is...",
 		  value: message.channel.id,
 		  inline: true,
 	  },
 	  ],
     }})
   }
-  else if (message.content === './botrights') {
+  else if (message.content === './invite') {
       message.channel.send({
           embed: {
               color: 0x008080,
               fields: [
                   {
-                      name: "RobotNTR replies with;",
-                      value: "RIGHTS FOR BOTS! RIGHTS FOR BOTS! LET THEM TALK WHEREVER THEY WANT!",
+                      name: "Here you go :link:",
+                      value: "https://discordapp.com/oauth2/authorize?client_id=378251561316384777&scope=bot&permissions=8",
                       inline: true,
                   },
               ],
