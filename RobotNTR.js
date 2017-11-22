@@ -90,7 +90,7 @@ client.on('message', message => {
     message.channel.send({embed:{
     color: 0x008080,
 	title: "Channel Identifier",
-	description: "Utility to find the ID of a channel.",
+	description: "Here it is...",
 	thumbnail: {
 		url:
           "https://cdn.discordapp.com/attachments/382331380656242702/382652629190311936/20171118_170053.jpg",
@@ -122,20 +122,20 @@ client.on('message', message => {
       message.channel.send({
           embed: {
               color: 0x008080,
-              title: "RobotNTR Information",
+              title: "Supremacy Information",
               thumbnail: {
                   url:
-                  "https://cdn.discordapp.com/avatars/326720733327654913/3c6aca41df96ed0a6f84f3a7b34ea4bb.webp?size=2048",
+                  "https://cdn.discordapp.com/attachments/382331380656242702/382652629190311936/20171118_170053.jpg",
               },
               fields: [
                   {
-                      name: "RobotNTR, v0.3",
-                      value: "RobotNTR is developed by SpadesNTR, who can be found at https://www.twitter.com/SpadesNTR",
+                      name: "Supremacy Bot",
+                      value: "Bot made by Rapid, on a mobile device... so it's pretty basic.",
                       inline: true,
                   },
                   {
-                      name: "Legal",
-                      value: "RobotNTR runs on Node.JS, and uses Discord.JS to communicate with Discord. RobotNTR is licensed with the Apache 2.0 License.",
+                      name: "More?",
+                      value: "The bot was named after the server owned by Rapid. Wanna join here ya go https://discord.gg/pDvJZEN :)",
                       inline: true,
                   }
               ],
