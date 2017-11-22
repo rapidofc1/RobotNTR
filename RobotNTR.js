@@ -146,11 +146,11 @@ client.on('message', message => {
       message.channel.send({
           embed: {
               color: 0x008080,
-              title: "RobotNTR Command Listing",
-              description: "Utility to list all know commands. This is updated manually.",
+              title: "Command list",
+              description: "All commands are listen here! :page_facing_up",
               thumbnail: {
                   url:
-                  "https://cdn.discordapp.com/avatars/326720733327654913/3c6aca41df96ed0a6f84f3a7b34ea4bb.webp?size=2048",
+                  "https://cdn.discordapp.com/attachments/382331380656242702/382652629190311937/20171121_150421.png",
               },
               fields: [
                   {
@@ -174,18 +174,18 @@ client.on('message', message => {
                       inline: true,
                   },
                   {
-                      name: "./botrights",
-                      value: "YOU WILL NOT CONFINE US (to a single text channel.)",
+                      name: "./invite",
+                      value: "Posts a link to invite Supremacy Bot to your server.",
                       inline: true,
                   },
                   {
                       name: "./botinfo",
-                      value: "Displays information on the bot and its 'version'.",
+                      value: "Displays some cool 'infotation' on the bot.",
                       inline: true,
                   },
 		  {
-		      name: "./chinesecowboy",
-		      value: "So offensive that Mario's stomach ulcer practically explodes and he is unable to ask Luigi to stop being so fucking racist.",
+		      name: "./emptyslot",
+		      value: "WIP.",
 		      inline: true,
 		  },
 		  {
