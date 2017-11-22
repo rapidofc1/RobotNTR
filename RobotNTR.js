@@ -122,7 +122,7 @@ client.on('message', message => {
       message.channel.send({
           embed: {
               color: 0x008080,
-              title: "Supremacy Information",
+              title: "Supremacy Bot Information",
               thumbnail: {
                   url:
                   "https://cdn.discordapp.com/attachments/382331380656242702/382652629190311936/20171118_170053.jpg",
