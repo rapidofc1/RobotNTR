@@ -154,42 +154,42 @@ client.on('message', message => {
               },
               fields: [
                   {
-                      name: "./help",
+                      name: "help",
                       value: "Shows this frickin' message you goon.",
                       inline: true,
                   },
                   {
-                      name: "./ping, ./pong",
+                      name: "ping, pong",
                       value: "Respond with a test message. One writes 'Pong!', the other, 'Ping!'. Useful for checking response time.",
                       inline: true,
                   },
                   {
-                      name: "./avatar",
+                      name: "avatar",
                       value: "Retrieves the users avatar directly from Discord.",
                       inline: true,
                   },
                   {
-                      name: "./channelid",
+                      name: "channelid",
                       value: "Find the identifier for the channel the command was sent in.",
                       inline: true,
                   },
                   {
-                      name: "./invite",
+                      name: "invite",
                       value: "Posts a link to invite Supremacy Bot to your server.",
                       inline: true,
                   },
                   {
-                      name: "./botinfo",
+                      name: "botinfo",
                       value: "Displays some cool 'infotation' on the bot.",
                       inline: true,
                   },
 		  {
-		      name: "./drake",
+		      name: "drake",
 		      value: "Hotline bling!",
 		      inline: true,
 		  },
 		  {
-		      name: "./online, ./idle",
+		      name: "online, idle",
 		      value: "Changes the bot's status. One sets it to Online, the other to Idle.",
 		      inline: true,
 		  }
