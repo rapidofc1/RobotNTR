@@ -164,7 +164,7 @@ client.on('message', message => {
                       inline: true,
                   },
                   {
-                      name: "avatar",
+                      name: "avatar @user",
                       value: "Retrieves the users avatar directly from Discord.",
                       inline: true,
                   },
